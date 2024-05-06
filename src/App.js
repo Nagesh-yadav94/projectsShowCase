@@ -1,9 +1,6 @@
-import ProjectsShowCase from './components/ProjectsShowCase'
-
+import Home from './components/Home'
 import './App.css'
 
-
-// Replace your code here
-const App = () => <ProjectsShowCase />
+const App = () => <Home />
 
 export default App

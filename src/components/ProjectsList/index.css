@@ -1,0 +1,43 @@
+.project-list {
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 80%;
+  box-shadow: 0px 4px 4px 0px #475569;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.project-list:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s;
+}
+
+@media screen and (min-width: 768px) {
+  .project-list {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .project-list {
+    width: 22%;
+  }
+}
+
+.project-image {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .project-image {
+    width: 100%;
+  }
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  color: #475569;
+  padding: 8px;
+}
